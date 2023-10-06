@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1195FAA72ACF3C5F002EC0D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195FAA62ACF3C5F002EC0D3 /* AppDelegate.swift */; };
+		1195FAA92ACF3C5F002EC0D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195FAA82ACF3C5F002EC0D3 /* SceneDelegate.swift */; };
+		1195FAAB2ACF3C5F002EC0D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195FAAA2ACF3C5F002EC0D3 /* ViewController.swift */; };
+		1195FAAE2ACF3C5F002EC0D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1195FAAC2ACF3C5F002EC0D3 /* Main.storyboard */; };
+		1195FAB12ACF3C5F002EC0D3 /* BearcatBloodConnect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1195FAAF2ACF3C5F002EC0D3 /* BearcatBloodConnect.xcdatamodeld */; };
+		1195FAB32ACF3C61002EC0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1195FAB22ACF3C61002EC0D3 /* Assets.xcassets */; };
+		1195FAB62ACF3C61002EC0D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1195FAB42ACF3C61002EC0D3 /* LaunchScreen.storyboard */; };
+		1195FAC12ACF3C61002EC0D3 /* BearcatBloodConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195FAC02ACF3C61002EC0D3 /* BearcatBloodConnectTests.swift */; };
+		1195FACB2ACF3C61002EC0D3 /* BearcatBloodConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195FACA2ACF3C61002EC0D3 /* BearcatBloodConnectUITests.swift */; };
+		1195FACD2ACF3C61002EC0D3 /* BearcatBloodConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195FACC2ACF3C61002EC0D3 /* BearcatBloodConnectUITestsLaunchTests.swift */; };
+		1195FADA2ACF403A002EC0D3 /* LoginPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195FAD92ACF403A002EC0D3 /* LoginPageVC.swift */; };
+		1195FADC2ACF405F002EC0D3 /* RegistrationPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195FADB2ACF405F002EC0D3 /* RegistrationPageVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1195FABD2ACF3C61002EC0D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1195FA9B2ACF3C5F002EC0D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1195FAA22ACF3C5F002EC0D3;
+			remoteInfo = BearcatBloodConnect;
+		};
+		1195FAC72ACF3C61002EC0D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1195FA9B2ACF3C5F002EC0D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1195FAA22ACF3C5F002EC0D3;
+			remoteInfo = BearcatBloodConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1195FAA32ACF3C5F002EC0D3 /* BearcatBloodConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BearcatBloodConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1195FAA62ACF3C5F002EC0D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1195FAA82ACF3C5F002EC0D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1195FAAA2ACF3C5F002EC0D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1195FAAD2ACF3C5F002EC0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1195FAB02ACF3C5F002EC0D3 /* BearcatBloodConnect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BearcatBloodConnect.xcdatamodel; sourceTree = "<group>"; };
+		1195FAB22ACF3C61002EC0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1195FAB52ACF3C61002EC0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1195FAB72ACF3C61002EC0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1195FABC2ACF3C61002EC0D3 /* BearcatBloodConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BearcatBloodConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1195FAC02ACF3C61002EC0D3 /* BearcatBloodConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearcatBloodConnectTests.swift; sourceTree = "<group>"; };
+		1195FAC62ACF3C61002EC0D3 /* BearcatBloodConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BearcatBloodConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1195FACA2ACF3C61002EC0D3 /* BearcatBloodConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearcatBloodConnectUITests.swift; sourceTree = "<group>"; };
+		1195FACC2ACF3C61002EC0D3 /* BearcatBloodConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearcatBloodConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1195FAD92ACF403A002EC0D3 /* LoginPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageVC.swift; sourceTree = "<group>"; };
+		1195FADB2ACF405F002EC0D3 /* RegistrationPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPageVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1195FAA02ACF3C5F002EC0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1195FAB92ACF3C61002EC0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1195FAC32ACF3C61002EC0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1195FA9A2ACF3C5F002EC0D3 = {
+			isa = PBXGroup;
+			children = (
+				1195FAA52ACF3C5F002EC0D3 /* BearcatBloodConnect */,
+				1195FABF2ACF3C61002EC0D3 /* BearcatBloodConnectTests */,
+				1195FAC92ACF3C61002EC0D3 /* BearcatBloodConnectUITests */,
+				1195FAA42ACF3C5F002EC0D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1195FAA42ACF3C5F002EC0D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1195FAA32ACF3C5F002EC0D3 /* BearcatBloodConnect.app */,
+				1195FABC2ACF3C61002EC0D3 /* BearcatBloodConnectTests.xctest */,
+				1195FAC62ACF3C61002EC0D3 /* BearcatBloodConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1195FAA52ACF3C5F002EC0D3 /* BearcatBloodConnect */ = {
+			isa = PBXGroup;
+			children = (
+				1195FAA62ACF3C5F002EC0D3 /* AppDelegate.swift */,
+				1195FAA82ACF3C5F002EC0D3 /* SceneDelegate.swift */,
+				1195FAAA2ACF3C5F002EC0D3 /* ViewController.swift */,
+				1195FADB2ACF405F002EC0D3 /* RegistrationPageVC.swift */,
+				1195FAD92ACF403A002EC0D3 /* LoginPageVC.swift */,
+				1195FAAC2ACF3C5F002EC0D3 /* Main.storyboard */,
+				1195FAB22ACF3C61002EC0D3 /* Assets.xcassets */,
+				1195FAB42ACF3C61002EC0D3 /* LaunchScreen.storyboard */,
+				1195FAB72ACF3C61002EC0D3 /* Info.plist */,
+				1195FAAF2ACF3C5F002EC0D3 /* BearcatBloodConnect.xcdatamodeld */,
+			);
+			path = BearcatBloodConnect;
+			sourceTree = "<group>";
+		};
+		1195FABF2ACF3C61002EC0D3 /* BearcatBloodConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				1195FAC02ACF3C61002EC0D3 /* BearcatBloodConnectTests.swift */,
+			);
+			path = BearcatBloodConnectTests;
+			sourceTree = "<group>";
+		};
+		1195FAC92ACF3C61002EC0D3 /* BearcatBloodConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1195FACA2ACF3C61002EC0D3 /* BearcatBloodConnectUITests.swift */,
+				1195FACC2ACF3C61002EC0D3 /* BearcatBloodConnectUITestsLaunchTests.swift */,
+			);
+			path = BearcatBloodConnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1195FAA22ACF3C5F002EC0D3 /* BearcatBloodConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1195FAD02ACF3C61002EC0D3 /* Build configuration list for PBXNativeTarget "BearcatBloodConnect" */;
+			buildPhases = (
+				1195FA9F2ACF3C5F002EC0D3 /* Sources */,
+				1195FAA02ACF3C5F002EC0D3 /* Frameworks */,
+				1195FAA12ACF3C5F002EC0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BearcatBloodConnect;
+			productName = BearcatBloodConnect;
+			productReference = 1195FAA32ACF3C5F002EC0D3 /* BearcatBloodConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1195FABB2ACF3C61002EC0D3 /* BearcatBloodConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1195FAD32ACF3C61002EC0D3 /* Build configuration list for PBXNativeTarget "BearcatBloodConnectTests" */;
+			buildPhases = (
+				1195FAB82ACF3C61002EC0D3 /* Sources */,
+				1195FAB92ACF3C61002EC0D3 /* Frameworks */,
+				1195FABA2ACF3C61002EC0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1195FABE2ACF3C61002EC0D3 /* PBXTargetDependency */,
+			);
+			name = BearcatBloodConnectTests;
+			productName = BearcatBloodConnectTests;
+			productReference = 1195FABC2ACF3C61002EC0D3 /* BearcatBloodConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1195FAC52ACF3C61002EC0D3 /* BearcatBloodConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1195FAD62ACF3C61002EC0D3 /* Build configuration list for PBXNativeTarget "BearcatBloodConnectUITests" */;
+			buildPhases = (
+				1195FAC22ACF3C61002EC0D3 /* Sources */,
+				1195FAC32ACF3C61002EC0D3 /* Frameworks */,
+				1195FAC42ACF3C61002EC0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1195FAC82ACF3C61002EC0D3 /* PBXTargetDependency */,
+			);
+			name = BearcatBloodConnectUITests;
+			productName = BearcatBloodConnectUITests;
+			productReference = 1195FAC62ACF3C61002EC0D3 /* BearcatBloodConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1195FA9B2ACF3C5F002EC0D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1195FAA22ACF3C5F002EC0D3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					1195FABB2ACF3C61002EC0D3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1195FAA22ACF3C5F002EC0D3;
+					};
+					1195FAC52ACF3C61002EC0D3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1195FAA22ACF3C5F002EC0D3;
+					};
+				};
+			};
+			buildConfigurationList = 1195FA9E2ACF3C5F002EC0D3 /* Build configuration list for PBXProject "BearcatBloodConnect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1195FA9A2ACF3C5F002EC0D3;
+			productRefGroup = 1195FAA42ACF3C5F002EC0D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1195FAA22ACF3C5F002EC0D3 /* BearcatBloodConnect */,
+				1195FABB2ACF3C61002EC0D3 /* BearcatBloodConnectTests */,
+				1195FAC52ACF3C61002EC0D3 /* BearcatBloodConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1195FAA12ACF3C5F002EC0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1195FAB62ACF3C61002EC0D3 /* LaunchScreen.storyboard in Resources */,
+				1195FAB32ACF3C61002EC0D3 /* Assets.xcassets in Resources */,
+				1195FAAE2ACF3C5F002EC0D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1195FABA2ACF3C61002EC0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1195FAC42ACF3C61002EC0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1195FA9F2ACF3C5F002EC0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1195FADC2ACF405F002EC0D3 /* RegistrationPageVC.swift in Sources */,
+				1195FADA2ACF403A002EC0D3 /* LoginPageVC.swift in Sources */,
+				1195FAB12ACF3C5F002EC0D3 /* BearcatBloodConnect.xcdatamodeld in Sources */,
+				1195FAAB2ACF3C5F002EC0D3 /* ViewController.swift in Sources */,
+				1195FAA72ACF3C5F002EC0D3 /* AppDelegate.swift in Sources */,
+				1195FAA92ACF3C5F002EC0D3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1195FAB82ACF3C61002EC0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1195FAC12ACF3C61002EC0D3 /* BearcatBloodConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1195FAC22ACF3C61002EC0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1195FACB2ACF3C61002EC0D3 /* BearcatBloodConnectUITests.swift in Sources */,
+				1195FACD2ACF3C61002EC0D3 /* BearcatBloodConnectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1195FABE2ACF3C61002EC0D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1195FAA22ACF3C5F002EC0D3 /* BearcatBloodConnect */;
+			targetProxy = 1195FABD2ACF3C61002EC0D3 /* PBXContainerItemProxy */;
+		};
+		1195FAC82ACF3C61002EC0D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1195FAA22ACF3C5F002EC0D3 /* BearcatBloodConnect */;
+			targetProxy = 1195FAC72ACF3C61002EC0D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1195FAAC2ACF3C5F002EC0D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1195FAAD2ACF3C5F002EC0D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1195FAB42ACF3C61002EC0D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1195FAB52ACF3C61002EC0D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1195FACE2ACF3C61002EC0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1195FACF2ACF3C61002EC0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1195FAD12ACF3C61002EC0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BearcatBloodConnect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NWMSU.BearcatBloodConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1195FAD22ACF3C61002EC0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BearcatBloodConnect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NWMSU.BearcatBloodConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1195FAD42ACF3C61002EC0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NWMSU.BearcatBloodConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BearcatBloodConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BearcatBloodConnect";
+			};
+			name = Debug;
+		};
+		1195FAD52ACF3C61002EC0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NWMSU.BearcatBloodConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BearcatBloodConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BearcatBloodConnect";
+			};
+			name = Release;
+		};
+		1195FAD72ACF3C61002EC0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NWMSU.BearcatBloodConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BearcatBloodConnect;
+			};
+			name = Debug;
+		};
+		1195FAD82ACF3C61002EC0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NWMSU.BearcatBloodConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BearcatBloodConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1195FA9E2ACF3C5F002EC0D3 /* Build configuration list for PBXProject "BearcatBloodConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1195FACE2ACF3C61002EC0D3 /* Debug */,
+				1195FACF2ACF3C61002EC0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1195FAD02ACF3C61002EC0D3 /* Build configuration list for PBXNativeTarget "BearcatBloodConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1195FAD12ACF3C61002EC0D3 /* Debug */,
+				1195FAD22ACF3C61002EC0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1195FAD32ACF3C61002EC0D3 /* Build configuration list for PBXNativeTarget "BearcatBloodConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1195FAD42ACF3C61002EC0D3 /* Debug */,
+				1195FAD52ACF3C61002EC0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1195FAD62ACF3C61002EC0D3 /* Build configuration list for PBXNativeTarget "BearcatBloodConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1195FAD72ACF3C61002EC0D3 /* Debug */,
+				1195FAD82ACF3C61002EC0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1195FAAF2ACF3C5F002EC0D3 /* BearcatBloodConnect.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1195FAB02ACF3C5F002EC0D3 /* BearcatBloodConnect.xcdatamodel */,
+			);
+			currentVersion = 1195FAB02ACF3C5F002EC0D3 /* BearcatBloodConnect.xcdatamodel */;
+			path = BearcatBloodConnect.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1195FA9B2ACF3C5F002EC0D3 /* Project object */;
+}
