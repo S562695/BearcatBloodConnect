@@ -15,7 +15,21 @@ class RegistrationPageVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var headerLBL: UILabel!
+    
+    @IBOutlet weak var emailTF: UITextField!
+    
+    @IBOutlet weak var passwordTF: UITextField!
+    
+    
+    @IBOutlet var signUpBtn: [UIButton]!
+    
+    
+    @IBAction func signUpClicked(_ sender: UIButton) {
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 

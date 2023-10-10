@@ -19,6 +19,7 @@
 		1195FACD2ACF3C61002EC0D3 /* BearcatBloodConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195FACC2ACF3C61002EC0D3 /* BearcatBloodConnectUITestsLaunchTests.swift */; };
 		1195FADA2ACF403A002EC0D3 /* LoginPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195FAD92ACF403A002EC0D3 /* LoginPageVC.swift */; };
 		1195FADC2ACF405F002EC0D3 /* RegistrationPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195FADB2ACF405F002EC0D3 /* RegistrationPageVC.swift */; };
+		1195FAE12AD02DC8002EC0D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1195FAE02AD02DC8002EC0D3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1195FACC2ACF3C61002EC0D3 /* BearcatBloodConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearcatBloodConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1195FAD92ACF403A002EC0D3 /* LoginPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageVC.swift; sourceTree = "<group>"; };
 		1195FADB2ACF405F002EC0D3 /* RegistrationPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPageVC.swift; sourceTree = "<group>"; };
+		1195FAE02AD02DC8002EC0D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				1195FAB22ACF3C61002EC0D3 /* Assets.xcassets */,
 				1195FAB42ACF3C61002EC0D3 /* LaunchScreen.storyboard */,
 				1195FAB72ACF3C61002EC0D3 /* Info.plist */,
+				1195FAE02AD02DC8002EC0D3 /* GoogleService-Info.plist */,
 				1195FAAF2ACF3C5F002EC0D3 /* BearcatBloodConnect.xcdatamodeld */,
 			);
 			path = BearcatBloodConnect;
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1195FAB62ACF3C61002EC0D3 /* LaunchScreen.storyboard in Resources */,
+				1195FAE12AD02DC8002EC0D3 /* GoogleService-Info.plist in Resources */,
 				1195FAB32ACF3C61002EC0D3 /* Assets.xcassets in Resources */,
 				1195FAAE2ACF3C5F002EC0D3 /* Main.storyboard in Resources */,
 			);

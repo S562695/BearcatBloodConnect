@@ -14,8 +14,26 @@ class LoginPageVC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBOutlet weak var headerLBL: UILabel!
     
-
+    @IBOutlet weak var usernameTF: UITextField!
+    @IBOutlet weak var passwordTF: UITextField!
+    
+    @IBOutlet var loginInBtn: [UIButton]!
+    
+    @IBOutlet var cancelBtn: [UIButton]!
+    
+    @IBAction func loginClicked(_ sender: UIButton) {
+    }
+    
+    @IBAction func cancelClicked(_ sender: UIButton) {
+    }
+    
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
